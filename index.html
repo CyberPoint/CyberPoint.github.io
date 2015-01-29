@@ -1,0 +1,31 @@
+---
+layout: default
+title: CyberPoint Labs on Security
+---
+
+
+<p>CyberPoint Labs is an industrial research and development activity -- advancing the discipline of cyber security by attacking and solving the hard problems of the field. It performs cutting-edge research in cyber security, develops new technologies and product prototypes, invents new tools and techniques, and coordinates with academic and open source researchers. 
+
+<p>We are excited to share with the open source
+community libraries and technologies we have developed that we think
+might be useful for malware analysis, software reverse code engineering,
+vulnerability discovery, and software security.  We are commited to advancing state of the art research in modeling cyber risk, detecting novel and sophisticated threats, and automating network analysis.
+
+<p>Our blog is focused on topics on software and system security, best
+practices, emerging threats, data science, machine learning,
+cryptography, software reverse code engineering, malware analysis, and
+network analysis.
+
+<p>Please check
+out our posts below and come back often:
+
+<div class="listing">
+    {% for post in paginator.posts %}
+    <div class="post other link">
+      <h2><span class="mega-octicon octicon-flame" style="min-width: 32px;"></span><a href="{{post.url}}">{{ post.title }}</a></h2>
+      <p class="post-date">{{ post.date | date_to_string }}</p>
+      <p>{{ post.description }}</p>
+    </div>
+    {% endfor %}
+</div>
+
