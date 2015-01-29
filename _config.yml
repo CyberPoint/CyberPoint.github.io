@@ -5,7 +5,7 @@ url:
 paginate: 8
 description:     CyberPoint Labs on Security
 intro:   Insights into cyber security, technology, and best practices.
-logo:             logo.png
+logo:             cp_logo_horizontal_Sm194x56.jpg
 disqus_shortname:
 # url: 
 #Comment out url when working locally to resolve base urls correctly
