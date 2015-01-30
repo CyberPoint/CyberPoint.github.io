@@ -15,10 +15,10 @@ disqus_shortname:
 owner:
   name:           CyberPoint Labs
   avatar:         
-  email:          opensource@cyberpointllc.com
+  email:          labs@cyberpointllc.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  github:
+  twitter:        @cpl4bs
+  github:         http://github.com/CyberPoint
   stackexchange:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
